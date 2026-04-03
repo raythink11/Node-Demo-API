@@ -1,0 +1,31 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Node.js Express API with Neon Postgres",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-db": "node initDb.js"
+  },
+  "author": "Hiren Patel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "helmet": "^3.21.2",
+    "hpp": "^0.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "postgres": "^3.4.8",
+    "validator": "^12.0.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
